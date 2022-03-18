@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Market Day</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all_market">All Market</string>
+    <string name="favourite">Favourite</string>
+    <string name="ijero_market_ijero">Ijero Market, Ijero</string>
+    <string name="notification_icon">Notification Icon</string>
+    <string name="edit_market">Edit Market</string>
+    <string name="date">2/10/2019</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="lga">LGA</string>
+    <string name="state">State</string>
+    <string name="last_market_day">Last Market Day:</string>
+    <string name="set_date">Set Date</string>
+    <string name="market_day_inclusive">Market Day Inclusive</string>
+    <string name="market_day_interval">Market Day Interval</string>
+    <string name="add_market">Add Market</string>
+    <string name="share_app">Share App</string>
+</resources>

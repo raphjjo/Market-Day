@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/name_location_txtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/favourite_icon"
+            android:text="@string/ijero_market_ijero"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/favourite_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_toStartOf="@id/edit_icon"
+            android:contentDescription="@string/notification_icon"
+            android:tag="2"
+            android:src="@drawable/ic_notifications_off" />
+
+        <ImageView
+            android:id="@+id/edit_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_edit"
+            android:layout_marginStart="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/edit_market"/>
+
+        <TextView
+            android:id="@+id/days_left_txtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 Days Left"
+            android:textSize="48sp"
+            android:textColor="@color/secondary_dark"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/name_location_txtView"/>
+
+        <TextView
+            android:id="@+id/current_date_txtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:layout_below="@id/days_left_txtView"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/next_market_date_txtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:layout_below="@id/days_left_txtView"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
